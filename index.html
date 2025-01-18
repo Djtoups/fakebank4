@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Online Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Secure Online Bank</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- Login Section -->
+        <div class="login-container" id="login-section">
+            <h2>Welcome to Secure Online Bank</h2>
+            <form id="login-form">
+                <input type="text" placeholder="Username" id="username" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Dashboard Section -->
+        <div class="dashboard hidden" id="dashboard">
+            <h2>Account Overview</h2>
+            <p><strong>Account Balance:</strong> $9,876,543.21</p>
+            <h3>Recent Transactions</h3>
+            <ul>
+                <li>Transfer to Jane Doe: -$2,000.00</li>
+                <li>Payment from XYZ Corp.: +$10,000.00</li>
+                <li>Online Purchase: -$150.00</li>
+            </ul>
+            <button id="logout">Logout</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Secure Online Bank. This is a demo website for ethical scambaiting purposes only.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
